@@ -50,7 +50,7 @@ jobs:
           PROPERTIES="$(./gradlew properties --console=plain -q)"
           IDE_VERSIONS="$(echo "$PROPERTIES" | grep "^pluginVerifierIdeVersions:" | base64)"
           VERSION="$(echo "$PROPERTIES" | grep "^version:" | cut -f2- -d ' ')"
-          NAME="intellij-rainbow-brackets"
+          NAME="intellij-rainbow-brackets-lite"
           ARTIFACT="${NAME}-${VERSION}.zip"
 
           echo "::set-output name=ideVersions::$IDE_VERSIONS"

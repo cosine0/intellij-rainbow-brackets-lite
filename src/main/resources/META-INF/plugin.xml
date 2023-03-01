@@ -58,7 +58,7 @@
     </change-notes>
 
     <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
-    <idea-version since-build="203" until-build="222.*"/>
+    <idea-version since-build="223" until-build="231.*"/>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
          on how to target different products -->
@@ -95,7 +95,7 @@
 
         <additionalTextAttributes scheme="Default" file="colorSchemes/rainbow-color-default.xml"/>
         <additionalTextAttributes scheme="Darcula" file="colorSchemes/rainbow-color-default-darcula.xml"/>
-<!--        <postStartupActivity implementation="com.github.izhangzhihao.rainbow.brackets.lite.RainbowCheckActivity"/>-->
+        <postStartupActivity implementation="com.github.izhangzhihao.rainbow.brackets.lite.RainbowCheckActivity"/>
         <highlightingPassFactory implementation="com.github.izhangzhihao.rainbow.brackets.lite.indents.RainbowIndentsPassFactory"/>
         <editorNotificationProvider implementation="com.github.izhangzhihao.rainbow.brackets.lite.RainbowifyBanner"/>
         <notificationGroup id="Rainbow Brackets Lite Notification Group" displayType="STICKY_BALLOON"/>
