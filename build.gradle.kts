@@ -13,8 +13,8 @@ val publishChannels: String by project
 plugins {
     id("org.jetbrains.intellij") version "1.13.0"
     id("com.adarshr.test-logger") version "3.2.0"
-    id("org.jetbrains.kotlin.jvm") version "1.7.20"
     id("idea")
+    kotlin("jvm") version "1.7.20"
 }
 
 repositories {
@@ -87,6 +87,7 @@ tasks {
 dependencies {
     compileOnly(fileTree("libs"))
     testImplementation("io.kotest:kotest-assertions-core:5.5.5")
+    implementation(kotlin("stdlib-jdk8"))
 }
 
 java {
@@ -99,4 +100,12 @@ tasks.withType<KotlinCompile> {
     kotlinOptions.apiVersion = kotlinTargetVersion
     kotlinOptions.jvmTarget = javaVersion
     kotlinOptions.freeCompilerArgs = listOf("-Xjsr305=strict")
+}
+val compileKotlin: KotlinCompile by tasks
+compileKotlin.kotlinOptions {
+    jvmTarget = "1.8"
+}
+val compileTestKotlin: KotlinCompile by tasks
+compileTestKotlin.kotlinOptions {
+    jvmTarget = "1.8"
 }

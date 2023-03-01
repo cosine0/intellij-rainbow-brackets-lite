@@ -8,7 +8,7 @@
 <p align="center">🌈Rainbow Brackets for IntelliJ based IDEs.</p>
 <br>
 
-- [Change log](https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2020.3/CHANGELOG.md#change-log)
+- [Change log](CHANGELOG.md)
 - [Compatibility](#compatibility)
 - [Supported languages](#supported-languages)
 - [Screenshots](#screenshots)
