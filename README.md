@@ -4,27 +4,13 @@
         <img src="./src/main/resources/META-INF/pluginIcon.svg" width="320" height="320" alt="logo"/>
     </a>
 </div>
-<h1 align="center">Intellij rainbow brackets</h1>
-<p align="center">🌈Rainbow Brackets for IntelliJ based IDEs/Android Studio/HUAWEI DevEco Studio.</p>
-
-<p align="center"> 
-<!-- <a href="https://actions-badge.atrox.dev/izhangzhihao/intellij-rainbow-brackets/goto?ref=2020.3"><img alt="Build Status" src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fizhangzhihao%2Fintellij-rainbow-brackets%2Fbadge%3Fref%3D2020.3&style=flat-square" /></a> -->
-<!-- <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/releases"><img src="https://img.shields.io/github/release/izhangzhihao/intellij-rainbow-brackets.svg?style=flat-square"></a> -->
-<a href="https://plugins.jetbrains.com/plugin/10080-rainbow-brackets"><img src="https://img.shields.io/jetbrains/plugin/r/stars/10080?style=flat-square"></a>
-<a href="https://plugins.jetbrains.com/embeddable/install/10080"><img src="https://img.shields.io/jetbrains/plugin/d/10080-rainbow-brackets.svg?style=flat-square"></a>
-<a href="https://plugins.jetbrains.com/plugin/10080-rainbow-brackets"><img src="https://img.shields.io/jetbrains/plugin/v/10080-rainbow-brackets.svg?style=flat-square"></a>
-<a href="https://opencollective.com/intellij-rainbow-brackets#backer"><img src="https://img.shields.io/opencollective/backers/intellij-rainbow-brackets?style=flat-square"></a>
-<a href="https://opencollective.com/intellij-rainbow-brackets#sponsor"><img src="https://img.shields.io/opencollective/sponsors/intellij-rainbow-brackets?style=flat-square"></a>
-</p>
-
+<h1 align="center">Intellij Rainbow Brackets Lite </h1>
+<p align="center">🌈Rainbow Brackets for IntelliJ based IDEs.</p>
 <br>
 
 - [Change log](https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2020.3/CHANGELOG.md#change-log)
 - [Compatibility](#compatibility)
 - [Supported languages](#supported-languages)
-- [Author's choice](#authors-choice)
-- [Free features are Sponsored By CodeStream](#free-features-are-sponsored-by-codestream)
-- [Install](#install)
 - [Screenshots](#screenshots)
 - [Customize colors](#customize-colors)
 - [Use color generator](#use-color-generator)
@@ -33,9 +19,6 @@
 - [Kotlin function literal braces and arrow](#kotlin-function-literal-braces-and-arrow)
 - [Disable rainbow brackets for specific languages](#disable-rainbow-brackets-for-specific-languages)
 - [Contribute](#contribute)
-- [Support Us](#support-us)
-- [Backers](#backers)
-- [Sponsors](#sponsors)
 - [Acknowledgements](#acknowledgements)
 
 ## Rainbow Brackets Lite
@@ -51,34 +34,6 @@ IntelliJ IDEA, PhpStorm, WebStorm, PyCharm, RubyMine, AppCode, CLion, Gogland, D
 ## Supported languages
 
 Java, Scala, Clojure, Kotlin, Python, Haskell, Agda, Rust, JavaScript, TypeScript, Erlang, Go, Groovy, Ruby, Elixir, ObjectiveC, PHP, HTML, XML, SQL, Apex language, C#, Dart, Pug/Jade, Bash, Vue.js, C# Razor Pages, GLSL(the OpenGL Shading Language), Go Template, C++, C, Solidity...
-
-## Author's choice
-
-Rainbow Brackets + One Dark Theme + Nyan Progress Bar + [Fira Code](https://github.com/tonsky/FiraCode) (Font)
-
-## Free features are Sponsored By [CodeStream](https://sponsorlink.codestream.com/?utm_source=jbmarket&utm_campaign=jbrainbowbrackets&utm_medium=banner)
-
-[![https://codestream.com](https://alt-images.codestream.com/codestream_logo_jbrainbowbrackets.png)](https://sponsorlink.codestream.com/?utm_source=jbmarket&utm_campaign=jbrainbowbrackets&utm_medium=banner)
-
-Eliminate context switching and costly distractions. Create and merge PRs and perform code reviews from inside your IDE while using jump-to-definition, your keybindings, and other IDE favorites. [Learn more](https://sponsorlink.codestream.com/?utm_source=jbmarket&utm_campaign=jbrainbowbrackets&utm_medium=banner)!
-
-Development powered by [JetBrains](https://www.jetbrains.com/?from=IntelliJRainbowBrackets).
-
-[![https://www.jetbrains.com/?from=IntelliJRainbowBrackets](./screenshots/jetbrains.svg)](https://www.jetbrains.com/?from=IntelliJRainbowBrackets)
-
-Whichever technologies you use, there's a JetBrains tool to match.
-
-## Install
-
-<a href="https://plugins.jetbrains.com/embeddable/install/10080">
-    <img src="https://user-images.githubusercontent.com/12044174/123105697-94066100-d46a-11eb-9832-338cdf4e0612.png" width="300"/>
-</a>
-
-Or you could install it inside your IDE:
-
-For Windows & Linux - <kbd>File</kbd> > <kbd>Settings</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Rainbow Brackets"</kbd> > <kbd>Install Plugin</kbd> > <kbd>Restart IntelliJ IDEA</kbd>
-
-For Mac - <kbd>IntelliJ IDEA</kbd> > <kbd>Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Rainbow Brackets"</kbd> > <kbd>Install Plugin</kbd>  > <kbd>Restart IntelliJ IDEA</kbd>
 
 ## Screenshots
 
@@ -244,65 +199,6 @@ For the Rider IDE, please follow: [this](https://rider-support.jetbrains.com/hc/
 * `gradle test`
 * `gradle runIde`
 * `gradle buildPlugin`
-
-## Support Us
-
-You can support us by the following actions:
-
-* Star this project
-* Share this plugin with your friends
-* Rate this plugin on [JetBrains plugin repository](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets)
-* Make pull requests
-* Report bugs
-* Tell us your ideas
-* Become a sponsor by donating on [Open Collective](https://opencollective.com/intellij-rainbow-brackets)
-* Become a sponsor by donating with AliPay or WeChatPay
-* Don't want to use AliPay's mobile App? If you could read Chinese, please use [the official website](https://shenghuo.alipay.com/send/payment/fill.htm) to transfer your donation to my Alipay account(izhangzhihao@hotmail.com). Otherwise, you can try [the English version of Alipay](https://global.alipay.com/) to transfer your donation.
-
-<table>
-  <tr>
-    <th width="33%">Open Collective</th>
-    <th width="33%">AliPay</th>
-    <th width="33%">WeChatPay</th>
-  </tr>
-  <tr></tr>
-  <tr align="center">
-    <td>
-        <a href="https://opencollective.com/intellij-rainbow-brackets" target="_blank">
-            <img src="https://opencollective.com/static/images/opencollectivelogo-footer-n.svg" width="171px" alt="OpenCollective">
-        </a>
-      </td>
-    <td><img src="https://user-images.githubusercontent.com/12044174/85197261-77dd5a80-b312-11ea-9630-51caf7d634f2.jpg"></td>
-    <td><img src="https://user-images.githubusercontent.com/12044174/85197263-7b70e180-b312-11ea-917a-35eab2ea08ae.jpg"></td>
-  </tr>
-</table>
-
-## Backers
-
-Thank you to all our backers! ❤️ [[Become a backer](https://opencollective.com/intellij-rainbow-brackets#backer)]
-
-<a href="https://opencollective.com/intellij-rainbow-brackets#backers" target="_blank"><img src="https://opencollective.com/intellij-rainbow-brackets/backers.svg?width=890"></a>
-
-## Sponsors
-
-Support this project by becoming a sponsor! 🌈 Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/intellij-rainbow-brackets#sponsor)]
-
-<a href="https://opencollective.com/intellij-rainbow-brackets/sponsor/0/website" target="_blank"><img src="https://opencollective.com/intellij-rainbow-brackets/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/intellij-rainbow-brackets/sponsor/1/website" target="_blank"><img src="https://opencollective.com/intellij-rainbow-brackets/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/intellij-rainbow-brackets/sponsor/2/website" target="_blank"><img src="https://opencollective.com/intellij-rainbow-brackets/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/intellij-rainbow-brackets/sponsor/3/website" target="_blank"><img src="https://opencollective.com/intellij-rainbow-brackets/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/intellij-rainbow-brackets/sponsor/4/website" target="_blank"><img src="https://opencollective.com/intellij-rainbow-brackets/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/intellij-rainbow-brackets/sponsor/5/website" target="_blank"><img src="https://opencollective.com/intellij-rainbow-brackets/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/intellij-rainbow-brackets/sponsor/6/website" target="_blank"><img src="https://opencollective.com/intellij-rainbow-brackets/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/intellij-rainbow-brackets/sponsor/7/website" target="_blank"><img src="https://opencollective.com/intellij-rainbow-brackets/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/intellij-rainbow-brackets/sponsor/8/website" target="_blank"><img src="https://opencollective.com/intellij-rainbow-brackets/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/intellij-rainbow-brackets/sponsor/9/website" target="_blank"><img src="https://opencollective.com/intellij-rainbow-brackets/sponsor/9/avatar.svg"></a>
-<a href="https://opencollective.com/intellij-rainbow-brackets/sponsor/10/website" target="_blank"><img src="https://opencollective.com/intellij-rainbow-brackets/sponsor/10/avatar.svg"></a>
-<a href="https://opencollective.com/intellij-rainbow-brackets/sponsor/11/website" target="_blank"><img src="https://opencollective.com/intellij-rainbow-brackets/sponsor/11/avatar.svg"></a>
-<a href="https://opencollective.com/intellij-rainbow-brackets/sponsor/12/website" target="_blank"><img src="https://opencollective.com/intellij-rainbow-brackets/sponsor/12/avatar.svg"></a>
-<a href="https://opencollective.com/intellij-rainbow-brackets/sponsor/13/website" target="_blank"><img src="https://opencollective.com/intellij-rainbow-brackets/sponsor/13/avatar.svg"></a>
-<a href="https://opencollective.com/intellij-rainbow-brackets/sponsor/14/website" target="_blank"><img src="https://opencollective.com/intellij-rainbow-brackets/sponsor/14/avatar.svg"></a>
-<a href="https://opencollective.com/intellij-rainbow-brackets/sponsor/15/website" target="_blank"><img src="https://opencollective.com/intellij-rainbow-brackets/sponsor/15/avatar.svg"></a>
 
 ## Acknowledgements
 

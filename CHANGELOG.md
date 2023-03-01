@@ -1,50 +1,16 @@
-## What happened?
-
-Since IntelliJ platform 2022.3, Rainbow Brackets has marked a "Freemium". Existing features before version 2022.3.1 are still FREE.
-
-之前的功能仍然免费！只有新增加的高阶功能是付费的，不付费仍然可以使用。
-
-All features which are inside GitHub are free to use unless it needs lots of time to develop(e.g. Supporting new languages, Supporting old frameworks, etc.).
-Non-free features are flagged with [paid] inside the changelog.
-A license can be bought at JetBrains Marketplace. And everyone has a 30 days trial license. Please try it before you buy it.
-**If you already contributed to this project(by writing PR or financial contribution), you can get a free license by contacting me at izhangzhihao@hotmail.com**
-
-## Paid features
-
-| features                              | since  |
-|---------------------------------------|--------|
-| C# related files support              | 2022.3 |
-| Indent highlighting advanced features | 2022.3 |
-| Color generator options               | 2022.3 |
-| Config up to 10 colors in the config panel| 2022.3 |
-| Color generator for rainbow variables | 2022.3 |
-| C++ related files support in Rider IDE| 2022.3 |
-| Better indent guides support for Python| 2022.3 |
-| Better indent guides support for Pug/Jade| 2022.3 |
-
-
-## What effect on me?
-
-If your daily features are not in the Paid features list, you don't need to worry about it.
-Otherwise, you can get a notification when you open a file that is not freely supported by this plugin.
-You can try to get a 30 days trial license, which has all same features as the paid license.
-
-## Future plans
-
-Please check out [our plans for paid plugin](https://github.com/izhangzhihao/intellij-rainbow-brackets/discussions/2586).
-
-## Screenshots
-
-Please check the latest screenshots [here](https://github.com/izhangzhihao/intellij-rainbow-brackets#screenshots).
-
 ## Change log
+
+<p>1.0.0</p>
+        <ul>
+            <li>Update build targets and build tools to work on the 2022.3 IDEs.</li>
+        </ul>
+        <br/>
 
 <p>2023.2.6</p>
         <ul>
             <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2597">#2597: Indent Guide highlighting options: selection doesn't persist between restarts.</a></li>
         </ul>
         <br/>
-
 
 <p>2023.2.5</p>
         <ul>
@@ -77,7 +43,7 @@ Please check the latest screenshots [here](https://github.com/izhangzhihao/intel
             <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2576">#2576: Add Indent Guides option to Editor -> Color Scheme -> Rainbow Brackets.</a></li>
             <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2578">#2578: Rainbow Variables for C Sharp.</a></li>
             <li>No "Enable rainbow variables?" popup for default.</li>
-            <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2582">#2582: can't enable color generator option for rainbw variables.</a></li>
+            <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2582">#2582: can't enable color generator option for rainbow variables.</a></li>
             <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/248">#248: Put Twig to blacklist, so we could ignore twig brackets.</a></li>
         </ul>
         <br/>
@@ -124,9 +90,9 @@ Please check the latest screenshots [here](https://github.com/izhangzhihao/intel
 <p>2022.3.2</p>
 <ul>
   <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/380">#380: [paid][feature]
-      Highlighted current rainbow indent guide lines.</a></li>
+      Highlighted current rainbow indent guidelines.</a></li>
   <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2536">#2536: [paid][feature]
-      Highlighted current rainbow indent guide lines.</a></li>
+      Highlighted current rainbow indent guidelines.</a></li>
   <li>Feature: enable rainbow variables by default(Config the colors here: Editor -> Scheme -> Language Defaults ->
     Semantic Highlighting)</li>
 </ul>
@@ -188,11 +154,11 @@ Please check the latest screenshots [here](https://github.com/izhangzhihao/intel
 
 <p>6.21</p>
 <ul>
-    <li>Handle exceptions in `RainbowHighlightVisitor.analyze()`</a></li>
-    <li>Cleanup 201.* stuff</a></li>
-    <li>Refactoring</a></li>
-    <li>Mirror changes from https://github.com/JetBrains/intellij-community</a></li>
-    <li>Using textMatches instead of text to avoid expensive traverses the whole PSI tree & format code</a></li>
+    <li>Handle exceptions in `RainbowHighlightVisitor.analyze()`</li>
+    <li>Cleanup 201.* stuff</li>
+    <li>Refactoring</li>
+    <li>Mirror changes from https://github.com/JetBrains/intellij-community</li>
+    <li>Using textMatches instead of text to avoid expensive traverses the whole PSI tree & format code</li>
     <li>Add support for rainbowify Python keywords</li>
     <li>Compatible with DataSpell</li>
 </ul>
@@ -200,11 +166,11 @@ Please check the latest screenshots [here](https://github.com/izhangzhihao/intel
 
 <p>6.20</p>
 <ul>
-    <li>Handle exceptions in `RainbowHighlightVisitor.analyze()`</a></li>
-    <li>Cleanup 201.* stuff</a></li>
-    <li>Refactoring</a></li>
-    <li>Mirror changes from https://github.com/JetBrains/intellij-community</a></li>
-    <li>Using textMatches instead of text to avoid expensive traverses the whole PSI tree & format code</a></li>
+    <li>Handle exceptions in `RainbowHighlightVisitor.analyze()`</li>
+    <li>Cleanup 201.* stuff</li>
+    <li>Refactoring</li>
+    <li>Mirror changes from https://github.com/JetBrains/intellij-community</li>
+    <li>Using textMatches instead of text to avoid expensive traverses the whole PSI tree & format code</li>
     <li>Add support for rainbowify Python keywords</li>
     <li>Compatible with DataSpell</li>
 </ul>
@@ -252,7 +218,7 @@ Please check the latest screenshots [here](https://github.com/izhangzhihao/intel
     <li>Feature <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/458">#458: Color Parentheses
             In Go Template</a></li>
     <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/988">#988: (@Grandmother) minor:
-            fix mispell in notification message</a></li>
+            fix misspell in notification message</a></li>
     <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/973">#973: File text mismatch</a>
     </li>
     <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/497">#497: C# in Rider - only
@@ -307,7 +273,7 @@ Please check the latest screenshots [here](https://github.com/izhangzhihao/intel
 <ul>
     <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/481">#481: rainbow-brackets does
             not support bash shell properly(for BashSupport Pro and Shell Script)</a></li>
-    <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/485">#485: Incorrect coloriziong
+    <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/485">#485: Incorrect colorizing
             after lambda in C#</a></li>
     <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/242">#242: Colorization is applied
             only to left parenthesis in for loop(C#) </a></li>
@@ -328,7 +294,7 @@ Please check the latest screenshots [here](https://github.com/izhangzhihao/intel
 <ul>
     <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/445">#445: No working on Android
             Studio canary 4.2</a></li>
-    <li>Some bug fixs and code refactorings</li>
+    <li>Some bug fixes and code refactorings</li>
 </ul>
 <br />
 

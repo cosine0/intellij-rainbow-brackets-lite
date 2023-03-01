@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 Your issue may already be reported!
-Please search on the [issues](https://github.com/izhangzhihao/intellij-rainbow-brackets/issues) and the [document](https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2020.3/README.md) and [discussions](https://github.com/izhangzhihao/intellij-rainbow-brackets/discussions) before creating one.
+Please search on the original repo's [issues](https://github.com/izhangzhihao/intellij-rainbow-brackets/issues) and the [document](https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2020.3/README.md) and [discussions](https://github.com/izhangzhihao/intellij-rainbow-brackets/discussions) before creating one.
 
 ## Please check
 
